@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-around;
+  height: 100%;
+  width: 100%;
+  background-image: url("./IMG_1273.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* text-align:start; */
+}
+
+.content {
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin-left: -500px;
+  width: 20%;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 4em;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media only screen and (max-width: 600px)  {
+  h1 {
+      font-size: 1.5em;
+  }
+  
+  p {
+      font-size: 1em;
+  }
+  
+  button {
+      font-size: 0.9em;
+      padding: 8px 16px;
+  }
+}
