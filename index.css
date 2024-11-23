@@ -69,8 +69,8 @@ button:hover {
   }
 
   .content {
-    margin-left: 5%; /* Reduce margin for smaller screens */
-    width: 90%; /* Make content width larger on smaller screens */
+    margin-left: 2%; /* Reduce margin for smaller screens */
+    width: 40%; /* Make content width larger on smaller screens */
   }
 
   h1 {
@@ -84,8 +84,8 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
   .content {
-    width: 90%;
-    margin: 0 auto; /* Center the content */
+    width: 40%;
+    /* margin: 0 auto; Center the content */
   }
 
   h1 {
